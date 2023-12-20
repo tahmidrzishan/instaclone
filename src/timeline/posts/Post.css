@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Inter;
+    src: url('/public/inter.ttf');
+}
+
 .post{
     width: 550px;
     margin: 30px 40px 50px 40px;
@@ -16,11 +21,13 @@
     flex-direction: row;
     align-items: center;
     font-weight: bolder;
+    font-family: Inter;
 }
 
 .post__headerAuthor > span{
     color: gray;
     font-size: 15px;
+    font-family: Inter;
 }
 
 .post__image > img{
@@ -43,4 +50,8 @@
 
 .postIcon:hover{
     cursor: pointer;
+}
+
+.avtr{
+    margin-right: 10px;
 }
